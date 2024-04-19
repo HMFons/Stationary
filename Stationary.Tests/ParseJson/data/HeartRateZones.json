@@ -1,0 +1,23 @@
+[
+  {
+    "caloriesOut": 610.6976323500002,
+    "max": 144,
+    "min": 30,
+    "minutes": 59,
+    "name": "Below"
+  },
+  {
+    "caloriesOut": 10.416733550000002,
+    "max": 152,
+    "min": 144,
+    "minutes": 1,
+    "name": "Custom Zone"
+  },
+  {
+    "caloriesOut": 0,
+    "max": 220,
+    "min": 152,
+    "minutes": 0,
+    "name": "Above"
+  }
+]

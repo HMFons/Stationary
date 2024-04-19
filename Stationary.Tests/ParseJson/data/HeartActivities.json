@@ -1,0 +1,59 @@
+[
+  {
+    "customHeartRateZones": [
+      {
+        "caloriesOut": 610.6976323500002,
+        "max": 144,
+        "min": 30,
+        "minutes": 59,
+        "name": "Below"
+      },
+      {
+        "caloriesOut": 10.416733550000002,
+        "max": 152,
+        "min": 144,
+        "minutes": 1,
+        "name": "Custom Zone"
+      },
+      {
+        "caloriesOut": 0,
+        "max": 220,
+        "min": 152,
+        "minutes": 0,
+        "name": "Above"
+      }
+    ],
+    "dateTime": "2024-04-17",
+    "heartRateZones": [
+      {
+        "caloriesOut": 322.91874005,
+        "max": 105,
+        "min": 30,
+        "minutes": 30,
+        "name": "Out of Range"
+      },
+      {
+        "caloriesOut": 240.16675810000004,
+        "max": 132,
+        "min": 105,
+        "minutes": 23,
+        "name": "Fat Burn"
+      },
+      {
+        "caloriesOut": 72.91713485000001,
+        "max": 166,
+        "min": 132,
+        "minutes": 7,
+        "name": "Cardio"
+      },
+      {
+        "caloriesOut": 0,
+        "max": 220,
+        "min": 166,
+        "minutes": 0,
+        "name": "Peak"
+      }
+    ],
+    "value": "110.04"
+  }
+]
