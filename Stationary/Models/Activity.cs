@@ -9,7 +9,7 @@ public class Activity
     [JsonPropertyName("activities-heart-intraday")]
     public ActivitiesHeartIntraday ActivitiesHeartIntraday { get; set; } = null!;
     public string StartTime => DateHelper.JoinDateTimeAndTimeOnly(ActivitiesHeart.First().DateTime, ActivitiesHeartIntraday.Dataset.First().Time);
-    
+
     public int Duration
     {
         get
@@ -31,6 +31,6 @@ public class Activity
 public record ActivitiesHeartIntraday(int DatasetInterval, List<Record> Dataset, string DatasetType);
 public record Record(TimeOnly Time, int Value)
 {
-    public string GetFullTime(DateTime date)=>DateHelper.JoinDateTimeAndTimeOnly(date, Time);
+    public string GetFullTime(DateTime date) => DateHelper.JoinDateTimeAndTimeOnly(date, Time);
 };
 

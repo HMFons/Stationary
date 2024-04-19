@@ -50,5 +50,5 @@ XDocument doc = new(new XElement(nsGarmin + "TrainingCenterDatabase",
 
 var xmlDoc = doc.ToString();
 Console.WriteLine(xmlDoc);
-doc.Save(fileName.Split('.')[0]+".tcx");
+doc.Save(fileName.Split('.')[0] + ".tcx");
 Console.ReadLine();
